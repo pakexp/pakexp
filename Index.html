@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Clothing Export</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Custom Clothing Export</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#custom-orders">Custom Orders</a></li>
+                    <li><a href="#process">Our Process</a></li>
+                    <li><a href="#quality">Quality Assurance</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home">
+        <div class="container">
+            <h2>Welcome to Custom Clothing Export</h2>
+            <p>Bespoke Clothing, Delivered Globally</p>
+            <button onclick="location.href='#products'">Browse Products</button>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>We specialize in exporting high-quality, custom-made clothing from Pakistan. Our mission is to deliver exceptional craftsmanship and style to our customers worldwide.</p>
+        </div>
+    </section>
+
+    <section id="products">
+        <div class="container">
+            <h2>Our Products</h2>
+            <div class="product-list">
+                <div class="product">
+                    <img src="suit.jpg" alt="Custom Suit">
+                    <h3>Custom Suits</h3>
+                    <p>Elegantly tailored suits made to measure.</p>
+                </div>
+                <div class="product">
+                    <img src="shirt.jpg" alt="Custom Shirt">
+                    <h3>Custom Shirts</h3>
+                    <p>High-quality shirts customized to your fit and style.</p>
+                </div>
+                <div class="product">
+                    <img src="traditional.jpg" alt="Traditional Attire">
+                    <h3>Traditional Attire</h3>
+                    <p>Beautifully crafted traditional clothing.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="custom-orders">
+        <div class="container">
+            <h2>Custom Orders</h2>
+            <p>Follow our simple process to place your custom clothing order.</p>
+            <button onclick="location.href='order-form.html'">Order Now</button>
+        </div>
+    </section>
+
+    <section id="process">
+        <div class="container">
+            <h2>Our Process</h2>
+            <p>We ensure the highest quality in every step of our process from design to delivery.</p>
+        </div>
+    </section>
+
+    <section id="quality">
+        <div class="container">
+            <h2>Quality Assurance</h2>
+            <p>We adhere to the highest standards to ensure you receive the best products.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form action="submit_form" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Custom Clothing Export. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
